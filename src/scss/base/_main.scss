@@ -8,8 +8,8 @@ select.form-control{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(../img/select.png) calc(100% - 15px) center no-repeat;
-    padding-right: 45px;
+    background: #fff url(../img/select.png) calc(100% - 15px) center no-repeat;
+    padding-right: 55px;
 }
 .btn{
     min-width: 250px;
@@ -179,6 +179,45 @@ select.form-control{
     .title{
 	font-size: 16px;
 	font-weight: 700;
+    }
+    .to-cart{
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.price{
+	    .form-control{
+		max-width: 100px;
+	    }
+	    label{
+		margin-right: 2rem;
+		position: relative;
+		.remove{
+		    color: $red;
+		    font-weight: 700;
+		    position: absolute;
+		    right: -15px;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    &:hover{
+			cursor: pointer;
+		    }
+		}
+	    }
+	}
+	.total{
+	    font-weight: 700;
+	}
+    }
+}
+.special-request{
+    padding-top: 1rem;
+    h3{
+	color: $gray-800;
+    }
+    textarea.form-control{
+	border: 2px solid #7b7b7b;
+	border-radius: 0;
     }
 }
 /*Footer*/

@@ -52,9 +52,19 @@
 	.h3{
 	    font-size: 1.1rem;
 	}
+	.card-body{
+	    padding: 1rem;
+	}
     }
     .list-group-item,
     .card-header{
 	padding: 1rem;
+    }
+    .menu-item{
+	flex-wrap: wrap;
+	.description{
+	    flex: 0 100%;
+	    margin-top: 5px;
+	}
     }
 }
