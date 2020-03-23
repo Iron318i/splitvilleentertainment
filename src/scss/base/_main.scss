@@ -4,8 +4,23 @@ html{
 a:not(.btn){
     text-decoration: underline;
 }
+select.form-control{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/select.png) calc(100% - 15px) center no-repeat;
+    padding-right: 45px;
+}
 .btn{
     min-width: 250px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    color: #959595;
+}
+.btn-outline-primary {
+    color: $gray-700;
+    border-color: $gray-700;
 }
 .site-header{
     background-color: $black;
