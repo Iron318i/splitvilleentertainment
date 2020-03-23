@@ -23,11 +23,19 @@
 	font-size: 3.42857rem;
     }
     .main-content{
-	padding: 35px;
+	padding: 35px 30px;
     }
     .site-footer{
 	padding: 35px 0;
 	margin-bottom: 50px;
+    }
+    .col-md-7{
+	flex: 0 0 62%;
+	max-width: 62%;
+    }
+    .col-md-5{
+	flex: 0 0 38%;
+	max-width: 38%;
     }
 }
 @include media-breakpoint-down(sm) {

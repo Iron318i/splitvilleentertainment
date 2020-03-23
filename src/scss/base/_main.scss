@@ -90,6 +90,44 @@ select.form-control{
 	background-size: contain;
     }
 }
+.card-header{
+    text-align: center;
+    h3{
+	margin-bottom: 0;
+    }
+}
+/*List*/
+.list-group{
+    p{
+	margin-bottom: 0;
+    }
+    .heading{
+	background-color: $gray-400;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    }
+    .h3{
+	margin-bottom: 0;
+    }
+    .row{
+	align-items: center;
+	margin-bottom: 5px;
+    }
+    .col-4{
+	text-align: right;
+	color: $black;
+	font-weight: 700;
+    }
+    hr{
+	margin: 1rem 0;
+    }
+    .total{
+	.col-4{
+	    font-size: rem(24px);
+	}
+    }
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;

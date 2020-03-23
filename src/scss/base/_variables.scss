@@ -53,10 +53,12 @@ lg: 960px,
 xl: 1230px
 );
 // Grid columns
+$grid-gutter-width:   40px;
 // Components
 
 $border-radius:  6px;
 $border-radius-lg: 6px;
+
 
 // Fonts
 $font-family-sans-serif:  'Open Sans', sans-serif;
@@ -100,6 +102,14 @@ $input-placeholder-color: $gray-500;
 // Jumbotron
 // Form states and alerts
 // Cards
+$card-spacer-y: rem(18px);
+$card-spacer-x: rem(25px);
+$card-cap-color: #fff;
+$card-cap-bg: $gray-700;
+$card-border-radius: 0;
+$card-border-color: $gray-200;
+$card-border-width: 0;
+$card-bg: $gray-200;
 // Tooltips
 // Popovers
 // Badges
@@ -107,6 +117,12 @@ $input-placeholder-color: $gray-500;
 // Alerts
 // Progress bars
 // List group
+$list-group-item-padding-y: rem(18px);
+$list-group-item-padding-x: rem(25px);
+$list-group-border-radius: 0;
+$list-group-bg: $gray-200;
+$list-group-border-width: 0;
+$list-group-border-color: $gray-200;
 // Image thumbnails
 // Figures
 // Breadcrumbs
