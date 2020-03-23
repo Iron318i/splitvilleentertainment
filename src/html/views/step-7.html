@@ -1,0 +1,20 @@
+<% var data = {
+title: "LET'S GET THIS PARTY STARTED!",
+ver: "1.05",
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<div class="main-content">
+    <h2 class="text-center">Tell us about you?</h2>
+    <div class="form-wrp">
+    </div>
+    <div class="text-center">
+	<div class="form-group">
+	    <a href="step-5.html" class="btn btn-primary">Next: select package</a>
+	</div>
+	<div class="form-group">
+	    <a href="step-3.html" class="btn btn-outline-primary">Cancel</a>
+	</div>
+    </div>
+
+</div>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

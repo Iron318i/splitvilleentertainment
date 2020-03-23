@@ -3,5 +3,55 @@ title: "LET'S GET THIS PARTY STARTED!",
 ver: "1.05",
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
-<div class="main-content"></div>
+<div class="main-content">
+    <h2 class="text-center">How many guests are attending?</h2>
+    <div class="form-wrp wrp-sm">
+	<div class="form-group">
+	    <select class="form-control">
+		<option selected disabled>Choose here</option>
+		<option value="906120009">1</option>
+		<option value="906120008">2</option>
+		<option value="906120007">3</option>
+		<option value="906120000">4</option>
+		<option value="100000000">5</option>
+		<option value="100000001">6</option>
+		<option value="100000002">7</option>
+		<option value="100000003">8</option>
+		<option value="100000004">9</option>
+		<option value="100000005">10</option>
+		<option value="100000006">11</option>
+		<option value="100000007">12</option>
+		<option value="100000008">13</option>
+		<option value="100000009">14</option>
+		<option value="100000010">15</option>
+		<option value="100000011">16</option>
+		<option value="100000012">17</option>
+		<option value="100000013">18</option>
+		<option value="100000014">19</option>
+		<option value="100000015">20</option>
+		<option value="906120001">21</option>
+		<option value="906120002">22</option>
+		<option value="906120003">23</option>
+		<option value="906120004">24</option>
+		<option value="906120005">25</option>
+		<option value="906120006">26</option>
+		<option value="906120010">27</option>
+		<option value="906120011">28</option>
+		<option value="906120012">29</option>
+		<option value="906120013">30</option>
+		<option value="100000017">31-50</option>
+		<option value="100000018">51-100</option>
+		<option value="100000019">101+</option>
+	    </select>
+	</div>
+    </div>
+    <div class="text-center">
+	<div class="form-group">
+	    <a href="step-2.html" class="btn btn-primary">Next: About me</a>
+	</div>
+	<div class="form-group">
+	    <a href="#" class="btn btn-outline-primary">Cancel</a>
+	</div>
+    </div>
+</div>
 <%= _.template(require('./../includes/footer.html').default)(data) %>
