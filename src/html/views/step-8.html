@@ -1,0 +1,220 @@
+<% var data = {
+title: "LET'S GET THIS PARTY STARTED!",
+ver: "1.05",
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<div class="main-content">
+    <h2 class="text-center">Select extras</h2>
+    <div class="form-wrp mb-4">
+	<div class="row">
+	    <div class="col-12 col-lg-7">
+		<div class="card">
+		    <div class="card-header">
+			<h3>Extras</h3>
+		    </div>
+		    <div class="card-body">
+			<img src="./uploads/extras.jpg" alt="Extras" class="img-fluid mb-3">
+			<p>Pre-purchase your arcade cards now! We’ll have them ready and waiting for you at the start of your event.</p>
+			<div class="accordion" id="accordionExtras">
+			    <div class="accordion-item">
+				<div class="accordion-header">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Game Cards</button>
+				</div>
+				<div id="collapseOne" class="collapse show" data-parent="#accordionExtras">
+				    <ul class="list-group list-group-flush">
+					<li class="list-group-item">
+					    <div class="form-inline">
+						<div class="custom-control custom-checkbox">
+						    <input type="checkbox" class="custom-control-input" id="Cards-1" checked>
+						    <label class="custom-control-label" for="Cards-1">$ 5 Game Card</label>
+
+						</div>
+						<div class="custom-control custom-checkbox">
+						    <input type="checkbox" class="custom-control-input" id="Cards-2">
+						    <label class="custom-control-label" for="Cards-2">$ 10 Game Card</label>
+
+						</div>
+						<div class="custom-control custom-checkbox">
+						    <input type="checkbox" class="custom-control-input" id="Cards-3">
+						    <label class="custom-control-label" for="Cards-3">$ 20 Game Card</label>
+
+						</div>
+					    </div>
+					    <div class="to-cart">
+						<div class="price form-inline">
+						    <label>$64.99 Each <span class="remove">x</span></label>
+						    <select class="form-control">
+							<option value="906120009">0</option>
+							<option value="906120009" selected>1</option>
+							<option value="906120008">2</option>
+							<option value="906120007">3</option>
+							<option value="906120000">4</option>
+							<option value="100000000">5</option>
+							<option value="100000001">6</option>
+							<option value="100000002">7</option>
+							<option value="100000003">8</option>
+							<option value="100000004">9</option>
+							<option value="100000005">10</option>
+						    </select>
+						</div>
+						<div class="total">
+						    <span>$64.99</span>
+						</div>
+					    </div>
+					</li>
+
+				    </ul>
+				</div>
+			    </div>
+			    <div class="accordion-item">
+				<div class="accordion-header">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Souvenir Bowling Pins</button>
+				</div>
+				<div id="collapse-2" class="collapse show" data-parent="#accordionExtras">
+				    <p>Level up your party by adding one of these awesome extras!</p>
+				    <ul class="list-group list-group-flush">
+					<li class="list-group-item menu-item">
+					    <div class="check-wrp">
+						<div class="custom-control custom-checkbox">
+						    <input type="checkbox" class="custom-control-input" id="2-1" checked>
+						    <label class="custom-control-label" for="2-1"></label>
+
+						</div>
+					    </div>
+					    <div class="thumb">
+						<img src="./uploads/thumb.png" alt="Buffalo Wings (30 Pieces)">
+					    </div>
+					    <div class="description">
+						<p class="title">Buffalo Wings (30 Pieces)</p>
+						<p>Bone-in wings that are seasoned and tastefully prepared with buffalo sauce.</p>
+						<div class="to-cart">
+						    <div class="price form-inline">
+							<label>$64.99 Each <span class="remove">x</span></label>
+							<select class="form-control">
+							    <option value="906120009">0</option>
+							    <option value="906120009" selected>1</option>
+							    <option value="906120008">2</option>
+							    <option value="906120007">3</option>
+							    <option value="906120000">4</option>
+							    <option value="100000000">5</option>
+							    <option value="100000001">6</option>
+							    <option value="100000002">7</option>
+							    <option value="100000003">8</option>
+							    <option value="100000004">9</option>
+							    <option value="100000005">10</option>
+							</select>
+						    </div>
+						    <div class="total">
+							<span>$64.99</span>
+						    </div>
+						</div>
+					    </div>
+					</li>
+				    </ul>
+				</div>
+			    </div>
+			    <div class="accordion-item">
+				<div class="accordion-header">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">Party Room</button>
+				</div>
+				<div id="collapse-3" class="collapse show" data-parent="#accordionExtras">
+				    <ul class="list-group list-group-flush">
+					<li class="list-group-item menu-item">
+					    <div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="party-room" checked>
+						<label class="custom-control-label" for="party-room">Yes! I want to book a party room.</label>
+					    </div>
+					</li>
+				    </ul>
+				</div>
+			    </div>
+			    <div class="accordion-item">
+				<div class="accordion-header">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">Laser Tag</button>
+				</div>
+				<div id="collapse-4" class="collapse show" data-parent="#accordionExtras">
+				    <ul class="list-group list-group-flush">
+					<li class="list-group-item menu-item">
+					    <div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="laser-tag" checked>
+						<label class="custom-control-label" for="laser-tag">Yes! I want to add the laser tag option <span class="font-weight-normal"> (7.99/person/game).</span></label>
+					    </div>
+					</li>
+				    </ul>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-12 col-lg-5">
+		<div class="card">
+		    <div class="card-header">
+			<h3>Order summary</h3>
+		    </div>
+		    <ul class="list-group">
+			<li class="list-group-item heading">
+			    <h4 class="h3">WHERE</h4>
+			    <a href="#">Edit</a>
+			</li>
+			<li class="list-group-item">
+			    <p><strong>HAMILTON</strong></p>
+			    <p>1525 Stone Church Rd. E.<br>Hamilton, ON L8W 3P8</p>
+			</li>
+			<li class="list-group-item heading">
+			    <h4 class="h3">WHEN</h4>
+			    <a href="#">Edit</a>
+			</li>
+			<li class="list-group-item">
+			    <p>Wednesday, April 1st, 2020</p>
+			    <p>2:00 PM</p>
+			</li>
+			<li class="list-group-item heading">
+			    <h4 class="h3">Package</h4>
+			    <a href="#">Edit</a>
+			</li>
+			<li class="list-group-item">
+			    <p><strong>10</strong> items of for<br> <strong>2</strong> persons</p>
+			</li>
+			<li class="list-group-item heading">
+			    <h4 class="h3">MENU</h4>
+			    <a href="#">Edit</a>
+			</li>
+			<li class="list-group-item menu">
+			    <div class="row">
+				<div class="col-7">
+				    <h4 class="h3">SUBTOTAL: </h4>
+				</div>
+				<div class="col-5">$64.99</div>
+			    </div>
+			    <div class="row">
+				<div class="col-7">
+				    <strong>Taxes:</strong>
+				</div>
+				<div class="col-5">$03.00</div>
+			    </div>
+			    <hr>
+			    <div class="row total">
+				<div class="col-7">
+				    <h4 class="h3">TOTAL:</h4>
+				</div>
+				<div class="col-5">$67.99</div>
+			    </div>
+			</li>
+		    </ul>
+		</div>
+
+	    </div>
+	</div>
+    </div>
+    <div class="text-center">
+	<div class="form-group">
+	    <a href="step-9.html" class="btn btn-primary">Next: billing</a>
+	</div>
+	<div class="form-group">
+	    <a href="step-7.html" class="btn btn-outline-primary">Cancel</a>
+	</div>
+    </div>
+
+</div>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

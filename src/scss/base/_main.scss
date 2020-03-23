@@ -11,6 +11,12 @@ select.form-control{
     background: #fff url(../img/select.png) calc(100% - 15px) center no-repeat;
     padding-right: 55px;
 }
+.custom-control-label{
+    font-weight: 700;
+    &:hover{
+	cursor: pointer;
+    }
+}
 .btn{
     min-width: 250px;
     text-transform: uppercase;
@@ -153,6 +159,9 @@ select.form-control{
 	    background-image: url(../img/btn-collapsed.png);
 	}
     }
+    .list-group-item{
+	padding-left: 0;
+    }
     .list-group,
     .list-group-item{
 	border-top: 1px solid $gray-300;
@@ -184,34 +193,39 @@ select.form-control{
 	font-size: 16px;
 	font-weight: 700;
     }
-    .to-cart{
-	margin-top: 1rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	.price{
-	    .form-control{
-		max-width: 100px;
-	    }
-	    label{
-		margin-right: 2rem;
-		position: relative;
-		.remove{
-		    color: $red;
-		    font-weight: 700;
-		    position: absolute;
-		    right: -15px;
-		    top: 50%;
-		    transform: translateY(-50%);
-		    &:hover{
-			cursor: pointer;
-		    }
+}
+.form-inline{
+    .custom-control+.custom-control{
+	margin-left: 2rem;
+    }
+}
+.to-cart{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .price{
+	.form-control{
+	    max-width: 100px;
+	}
+	label{
+	    margin-right: 2rem;
+	    position: relative;
+	    .remove{
+		color: $red;
+		font-weight: 700;
+		position: absolute;
+		right: -15px;
+		top: 50%;
+		transform: translateY(-50%);
+		&:hover{
+		    cursor: pointer;
 		}
 	    }
 	}
-	.total{
-	    font-weight: 700;
-	}
+    }
+    .total{
+	font-weight: 700;
     }
 }
 .special-request{
@@ -228,9 +242,7 @@ select.form-control{
 	    color: #000;
 	}
     }
-    .custom-control-label{
-	font-weight: 700;
-    }
+
 }
 /*Footer*/
 .site-footer{
