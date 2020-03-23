@@ -1,0 +1,110 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+// Table of Contents
+//
+// Color system
+$gray-100: #fbf7f0;
+$gray-400: #BFC8CC;
+$gray-500: #818A99;
+$gray-900: #2B3940;
+
+
+$blue: #3580FB;
+
+$primary: $blue;
+$secondary: #fff;
+
+
+// Options
+//$enable-rounded: false;
+
+// Spacing
+$spacer: 2rem;
+// Body
+
+// Links
+$link-hover-decoration: none;
+// Paragraphs
+// Grid breakpoints
+$grid-breakpoints: (
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px
+);
+// Grid containers
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1170px
+);
+// Grid columns
+// Components
+$caret-width: .2em;
+
+$border-radius:  3px;
+$border-radius-lg: 3px;
+
+// Fonts
+$font-family-sans-serif:  'Open Sans', sans-serif;
+
+$font-size-base: 1rem;
+$font-size-lg: $font-size-base;
+
+$font-weight-base : 300;
+$font-weight-bold: 500;
+$font-weight-bolder: $font-weight-bold;
+
+$font-weight-normal: 300;
+
+$h1-font-size: rem(30px);
+$h2-font-size: rem(24px);
+$h3-font-size: rem(18px);
+$h4-font-size: rem(18px);
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base ;
+
+$headings-font-weight: 500;
+
+$headings-margin-bottom: 1rem;
+
+// Components
+// Tables
+// Buttons
+// Forms
+$input-font-weight: 400;
+$input-border-color: #E3E6EB;
+
+$input-btn-padding-y: rem(7px);
+$input-padding-x:  rem(15px);
+
+$input-placeholder-color: #AAB2BF;
+
+$input-btn-padding-y-lg: rem(13px);
+$input-btn-padding-x-lg: rem(28px);
+// Dropdowns
+// Z-index master list
+// Navs
+// Navbar
+// Pagination
+// Jumbotron
+// Form states and alerts
+// Cards
+// Tooltips
+// Popovers
+// Badges
+// Modals
+// Alerts
+// Progress bars
+// List group
+// Image thumbnails
+// Figures
+// Breadcrumbs
+// Carousel
+// Close
+// Code
