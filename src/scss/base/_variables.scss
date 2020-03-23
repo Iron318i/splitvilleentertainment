@@ -101,6 +101,12 @@ $input-placeholder-color: $gray-500;
 // Pagination
 // Jumbotron
 // Form states and alerts
+$custom-control-indicator-size: rem(15px);
+$custom-checkbox-indicator-border-radius: 0;
+$custom-control-indicator-checked-color: $red;
+$custom-control-indicator-active-bg: #fff;
+$custom-control-indicator-checked-bg: #fff;
+$custom-control-indicator-checked-border-color: #cccccc;
 // Cards
 $card-spacer-y: rem(18px);
 $card-spacer-x: rem(25px);

@@ -154,6 +154,33 @@ select.form-control{
 	border-top: 1px solid $gray-300;
     }
 }
+.custom-control-label:after {
+    width: 2rem;
+    height: 2rem;
+    top: -6px;
+    left: -26px;
+}
+.menu-item{
+    padding-left: 0;
+    display: flex;
+    .check-wrp{
+	flex: 0 0 40px;
+    }
+    .thumb{
+	flex: 0 0 80px;
+	img{
+	    width: 53px;
+	}
+    }
+
+    .custom-checkbox{
+	margin-top: 1rem;
+    }
+    .title{
+	font-size: 16px;
+	font-weight: 700;
+    }
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;
