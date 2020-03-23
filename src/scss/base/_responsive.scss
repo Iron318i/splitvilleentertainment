@@ -1,6 +1,9 @@
 @include media-breakpoint-up(sm) {
 }
 @include media-breakpoint-up(md) {
+    .btn{
+	min-width: 310px;
+    }
 }
 @include media-breakpoint-up(lg) {
     .site-header{
@@ -9,6 +12,9 @@
     .h1{
 	padding: 37px 0;
 	font-size: 3.42857rem;
+    }
+    .main-content{
+	padding: 35px;
     }
     .site-footer{
 	padding: 35px 0;
