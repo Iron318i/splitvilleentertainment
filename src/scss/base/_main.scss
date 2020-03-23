@@ -356,6 +356,25 @@ select.form-control{
 	display: none;
     }
 }
+.available-times{
+    .btn{
+	min-width: 50px;
+	width: 100%;
+	border-radius: 0;
+	background-image: linear-gradient(to top, #c8e060 0%, #c2e17f 0%, #b6cc54 0%, #9b3 0%, #8fb45b 0%, #7b992d 0%, #8fb45b 0%, #a9c16e 0%, #b2d920 0%, white 0%, #ededed 100%);
+	border: 2px solid #7b7b7b;
+	color: black;
+	font-family: Arial, "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 16px 3px;
+	margin-bottom: 12px;
+    }
+    .disabled{
+	text-decoration: line-through;
+    }
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;
