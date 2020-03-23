@@ -131,6 +131,29 @@ select.form-control{
 	}
     }
 }
+/*accordion*/
+.accordion{
+    .accordion-header{
+	border-top: 1px solid $gray-300;
+	.btn{
+	    text-align: left;
+	    width: 100%;
+	    font-size: rem(20px);
+	    text-transform: uppercase;
+	    font-family: $headings-font-family;
+	    color: $gray-800;
+	    padding-left: 0;
+	    background: url(../img/btn-collapse.png) right center no-repeat;
+	}
+	.collapsed{
+	    background-image: url(../img/btn-collapsed.png);
+	}
+    }
+    .list-group,
+    .list-group-item{
+	border-top: 1px solid $gray-300;
+    }
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;
