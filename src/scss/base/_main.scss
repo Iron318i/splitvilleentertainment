@@ -222,6 +222,14 @@ select.form-control{
     textarea.form-control{
 	border: 2px solid #7b7b7b;
 	border-radius: 0;
+	background-color: #ededed;
+	color: #000;
+	&::placeholder {
+	    color: #000;
+	}
+    }
+    .custom-control-label{
+	font-weight: 700;
     }
 }
 /*Footer*/
