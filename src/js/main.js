@@ -17,4 +17,6 @@
 	$(this).addClass('active');
     });
 
+    $('#booking-calendar').dcalendar();
+
 }(jQuery);

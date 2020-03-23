@@ -107,6 +107,10 @@ const config = {
 		to: "./js/main.js"
 	    },
 	    {
+		from: "./src/js/dcalendar.picker.js",
+		to: "./js/dcalendar.picker.js"
+	    },
+	    {
 		from: "./src/fonts",
 		to: "./fonts"
 	    },

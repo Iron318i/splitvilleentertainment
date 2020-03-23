@@ -345,6 +345,17 @@ select.form-control{
     color: $gray-700;
     font-size: 13px;
 }
+.calendar-wrp{
+    background-color: #ededed;
+}
+.date-and-time{
+    > .row{
+	justify-content: center
+    }
+    .calendar-head-card{
+	display: none;
+    }
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;
