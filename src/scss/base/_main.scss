@@ -34,7 +34,7 @@ select.form-control{
 }
 .main-content{
     background-color: #fff;
-    padding: 20px 10px;
+    padding: 20px;
 }
 .form-wrp{
     padding: 1.5rem 0 2rem;
@@ -113,8 +113,12 @@ select.form-control{
     .row{
 	align-items: center;
 	margin-bottom: 5px;
+	margin: 0;
     }
-    .col-4{
+    [class*="col-"]{
+	padding: 0;
+    }
+    .col-5{
 	text-align: right;
 	color: $black;
 	font-weight: 700;
