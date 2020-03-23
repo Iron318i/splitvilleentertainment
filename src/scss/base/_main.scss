@@ -228,6 +228,12 @@ select.form-control{
 	font-weight: 700;
     }
 }
+.cart-item{
+    padding: 1.28571rem 0;
+}
+.cart-item+.cart-item{
+    border-top: 1px solid $gray-300;
+}
 .special-request{
     padding-top: 1rem;
     h3{
@@ -244,6 +250,10 @@ select.form-control{
     }
 
 }
+.terms{
+    color: $gray-700;
+    font-size: 13px;
+}
 /*Footer*/
 .site-footer{
     padding: 20px 10px;
@@ -253,12 +263,12 @@ select.form-control{
     p strong{
 	color: $black;
     }
-    .sep{
-	width: 49px;
-	height: 3px;
-	background-color: $red;
-	margin: 0 auto 1rem;
-    }
+}
+.sep{
+    width: 49px;
+    height: 3px;
+    background-color: $red;
+    margin: 0 auto 1rem;
 }
 #toTop{
     position: fixed;

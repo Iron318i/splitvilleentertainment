@@ -1,0 +1,28 @@
+<% var data = {
+title: "LET'S GET THIS PARTY STARTED!",
+ver: "1.05",
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<div class="main-content">
+    <h6 class="text-center mb-0">10 people are going to</h6>
+    <h2 class="text-center">attend</h2>
+    <div class="form-wrp mb-4">
+	<%= _.template(require('./../includes/order-summary-full.html').default)(data) %>
+    </div>
+    <div class="text-center">
+	<div class="form-group">
+	    <a href="#" class="btn btn-primary">Next: payment details</a>
+	</div>
+	<div class="form-group">
+	    <a href="step-8.html" class="btn btn-outline-primary">Cancel</a>
+	</div>
+    </div>
+    <div class="card mt-5 terms">
+	<div class="card-body pt-4">
+	    <h3 class="text-center">TERMS & CONDITIONS</h3>
+	    <div class="sep"></div>
+	    <%= _.template(require('./../includes/terms.html').default)(data) %>
+	</div>
+    </div>
+</div>
+<%= _.template(require('./../includes/footer.html').default)(data) %>
