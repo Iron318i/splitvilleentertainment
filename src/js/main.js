@@ -12,5 +12,9 @@
 	$("html, body").animate({scrollTop: 0}, 600);
 	return false;
     });
+    $('.time-variant').click(function () {
+	$('.time-variant').removeClass('active');
+	$(this).addClass('active');
+    });
 
 }(jQuery);

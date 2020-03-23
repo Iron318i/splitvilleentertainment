@@ -4,24 +4,18 @@ ver: "1.05",
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 <div class="main-content">
-    <h2 class="text-center">Tell us about you?</h2>
-    <div class="form-wrp wrp-sm">
-	<div class="form-group">
-	    <input type="text" class="form-control" placeholder="First Name">
-	</div>
-	<div class="form-group">
-	    <input type="text" class="form-control" placeholder="Last Name">
-	</div>
-	<div class="form-group">
-	    <input type="email" class="form-control" placeholder="Enter email">
-	</div>
-	<div class="form-group">
-	    <input type="text" class="form-control" placeholder="Company (optional)">
+    <h2 class="text-center">HOW LONG DO YOU WANT TO BOWL?</h2>
+    <div class="form-wrp mb-3">
+	<div class="time-picker">
+	    <div class="time-variant">1 hour</div>
+	    <div class="time-variant">1,5 hours</div>
+	    <div class="time-variant popular">2 hours</div>
+	    <div class="time-variant">2,5 hour</div>
 	</div>
     </div>
     <div class="text-center">
 	<div class="form-group">
-	    <a href="step-5.html" class="btn btn-primary">Next: select package</a>
+	    <a href="step-5.html" class="btn btn-primary">Next: choose date and time</a>
 	</div>
 	<div class="form-group">
 	    <a href="step-3.html" class="btn btn-outline-primary">Cancel</a>
