@@ -3,6 +3,18 @@
 @include media-breakpoint-up(md) {
 }
 @include media-breakpoint-up(lg) {
+    .site-header{
+	padding: 60px 0;
+    }
+    .h1{
+	padding: 37px 0;
+	font-size: 3.42857rem;
+    }
 }
 @include media-breakpoint-down(sm) {
+    .site-header{
+	.logo{
+	    width: 260px;
+	}
+    }
 }

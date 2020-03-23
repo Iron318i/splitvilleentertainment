@@ -6,16 +6,19 @@
 // Table of Contents
 //
 // Color system
-$gray-100: #fbf7f0;
-$gray-400: #BFC8CC;
-$gray-500: #818A99;
-$gray-900: #2B3940;
+$gray-100: #f9f9fb;
+$gray-200: #ededed;
+$gray-400: #cccccc;
+$gray-700: #7b7b7b;
+$gray-700: #444444;
+$gray-900: #222222;
+$black:    #000;
 
 
-$blue: #3580FB;
+$red: #dc2328;
 
-$primary: $blue;
-$secondary: #fff;
+$primary: $black;
+$secondary: $red;
 
 
 // Options
@@ -24,6 +27,8 @@ $secondary: #fff;
 // Spacing
 $spacer: 2rem;
 // Body
+$body-bg: $gray-100;
+$body-color: $gray-900;
 
 // Links
 $link-hover-decoration: none;
@@ -34,21 +39,20 @@ xs: 0,
 sm: 576px,
 md: 768px,
 lg: 992px,
-xl: 1200px
+xl: 1280px
 );
 // Grid containers
 $container-max-widths: (
 sm: 540px,
 md: 720px,
 lg: 960px,
-xl: 1170px
+xl: 1230px
 );
 // Grid columns
 // Components
-$caret-width: .2em;
 
-$border-radius:  3px;
-$border-radius-lg: 3px;
+$border-radius:  6px;
+$border-radius-lg: 6px;
 
 // Fonts
 $font-family-sans-serif:  'Open Sans', sans-serif;
@@ -56,20 +60,18 @@ $font-family-sans-serif:  'Open Sans', sans-serif;
 $font-size-base: 1rem;
 $font-size-lg: $font-size-base;
 
-$font-weight-base : 300;
-$font-weight-bold: 500;
-$font-weight-bolder: $font-weight-bold;
-
+$font-weight-base : 400;
 $font-weight-normal: 300;
 
 $h1-font-size: rem(30px);
-$h2-font-size: rem(24px);
-$h3-font-size: rem(18px);
+$h2-font-size: rem(26px);
+$h3-font-size: rem(20px);
 $h4-font-size: rem(18px);
 $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base ;
 
-$headings-font-weight: 500;
+$headings-font-weight: 400;
+$headings-font-family: 'Intro Inline', sans-serif;
 
 $headings-margin-bottom: 1rem;
 
