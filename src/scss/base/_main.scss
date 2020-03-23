@@ -50,11 +50,40 @@ select.form-control{
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
-	&:before{
+	&:before,
+	    &:after{
 	    content: "";
+	    position: absolute;
+	    display: block;
+	    background-color: $gray-700;
+	    width: 40px;
+	    height: 14px;
+	    top: 31%;
+	}
+	&:before{
+	    z-index: 1;
+	    left: 0;
+	}
+	&:after{
+	    z-index: 2;
+	    right: -5px;
+	    background:$gray-700 url(../img/step-sep.png) right center no-repeat;
 	}
     }
+    .step-1{
+	&:before{
+	    display: none;
+	}
+    }
+    .step-9{
+	&:after{
+	    display: none;
+	}
+    }
+
     .round{
+	position: relative;
+	z-index: 3;
 	background-color: $gray-800;
 	margin: 0 auto;
 	display: flex;
@@ -77,6 +106,32 @@ select.form-control{
     }
     .step-name{
 	margin-top: 5px;
+    }
+    .active{
+	color: #fff;
+	.round{
+	    border-color: #fff;
+	}
+	&:before,
+	    &:after{
+	    background-color: #fff;
+	}
+	&:after{
+	    background-image: url(../img/step-sep-active.png);
+	}
+    }
+    .current{
+	color: #fff;
+	.round{
+	    border-color: $red;
+	}
+	&:before{
+	    background-color: #fff;
+	}
+	&:after{
+	    background-color: $red;
+	    background-image: url(../img/step-sep-current.png);
+	}
     }
 }
 .main-content{
